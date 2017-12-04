@@ -85,22 +85,22 @@ Module.register("MMM-SolarDach", {
 
 			var l4 = document.createElement("div");
 			l4.classList.add("xsmall", "align-left", "line");
-			l4.innerHTML = this.translate("Power Total: ") + Math.round(this.solar.PowerTotalPV) + " kWh<br>";
+			l4.innerHTML = this.translate("Power Total: ") + this.solar.PowerTotalPV.toFixed(2) + " kWh<br>";
 			wrapper.appendChild(l4);
 
 			var l6 = document.createElement("div");
 			l6.classList.add("xsmall", "align-left", "line");
-			l6.innerHTML = this.translate("Power In: ") + Math.round(this.solar.PowerIn) + " kWh<br>";
+			l6.innerHTML = this.translate("Power In: ") + this.solar.PowerIn.toFixed(2) + " kWh<br>";
 			wrapper.appendChild(l6);
 
 			var l1 = document.createElement("div");
 			l1.classList.add("xsmall", "align-left", "line");
-			l1.innerHTML = this.translate("Power SelfConsumption: ") + Math.round(this.solar.PowerSelfConsumption) + " kWh<br>";
+			l1.innerHTML = this.translate("Power SelfConsumption: ") + this.solar.PowerSelfConsumption.toFixed(2) + " kWh<br>";
 			wrapper.appendChild(l1);
 			
 			var l2 = document.createElement("div");
 			l2.classList.add("xsmall", "align-left", "line");
-			l2.innerHTML = this.translate("Power Consumption: ") + Math.round(this.solar.PowerConsumption) + " kWh<br>";
+			l2.innerHTML = this.translate("Power Consumption: ") + this.solar.PowerConsumption.toFixed(2) + " kWh<br>";
 			wrapper.appendChild(l2);
 
 			return wrapper;
