@@ -1,0 +1,14 @@
+
+.MMM-SolarDach {
+	width: 310px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.MMM-SolarDach .header {
+  color: red;               /* Header color. Default is red. */
+}
+
+.MMM-SolarDach .line {
+  color: yellow;               /* Line color. Default is yellow. */
+}
