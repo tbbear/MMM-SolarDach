@@ -27,4 +27,4 @@ The module reads actual result data from the Suntrol Powermanagement tool.
     },
 	
 
-## Special thanks to SpaceCowboysDude and Mykle1 for teaching me!
+## Special thanks to CowboysDude and Mykle1 for teaching me!
